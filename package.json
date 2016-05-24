@@ -1,0 +1,11 @@
+{
+  "name": "superpromise",
+  "version": "0.1.0",
+  "description": "simple function that wraps superagent requests in promises",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
