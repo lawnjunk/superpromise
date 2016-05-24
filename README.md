@@ -1,14 +1,14 @@
-Super Promise
+Superpromise
 =============
-> wrap super agent requests in promises
+> wrap superagent requests in promises
 
 **example:**
 
 ``` js
-const superagent = require('superagent');
+const sa= require('superagent');
 const sp = require('superpromise');
 
-const request = superagent.get('http://www.google.com');
+const request = sa.get('http://www.duckduckgo.com');
 sp(request).then(function(res){
   // success
 }).catch(function(err) {
